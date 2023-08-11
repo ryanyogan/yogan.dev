@@ -1,4 +1,5 @@
 import { Navbar } from "@/components/shared/navbar";
+import { Analytics } from "@vercel/analytics/react";
 import clsx from "clsx";
 import type { Metadata } from "next";
 import { IBM_Plex_Sans } from "next/font/google";
@@ -52,6 +53,7 @@ export default function RootLayout({
         <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
           <Navbar />
           {children}
+          <Analytics />
         </main>
       </body>
     </html>
