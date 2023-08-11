@@ -12,8 +12,8 @@ const navItems = {
   "/articles": {
     name: "articles",
   },
-  "/tech-toys": {
-    name: "tech toys",
+  "/things-i-build": {
+    name: "things i build",
   },
   "/guestbook": {
     name: "sign",
