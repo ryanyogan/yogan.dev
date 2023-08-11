@@ -25,7 +25,7 @@ export default function HomePage() {
         I may help with their creation. ♥️
       </p>
 
-      <h3 className="font-bold text-xl my-8 tracking-tighter">
+      <h3 className="font-bold text-xl my-10 tracking-tighter">
         leadership
         <span className="text-neutral-400 font-normal">, two books please</span>
       </h3>
@@ -74,15 +74,9 @@ export default function HomePage() {
           Read the book to understand me, read the book for the greater good
         </a>
         &nbsp;😃
-        <br />
-        <br />
-        <span className="text-red-700/40">
-          Did I really drop a book on you in an About Me? Yes, if you want to
-          know my leadership style, that book makes me smile.
-        </span>
       </p>
 
-      <h3 className="font-bold text-xl my-8 tracking-tighter">
+      <h3 className="font-bold text-xl my-10 tracking-tighter">
         fun drives me,{" "}
         <span className="text-neutral-400 font-normal">you motivate me</span>
       </h3>
@@ -97,18 +91,18 @@ export default function HomePage() {
         >
           Matthew McConaughey
         </a>
-        , it&apos;s the &quot;Why, Oh, You.&quot; My drive is your success. I
-        want your career to thrive. I want us to create the impossible together,
-        well, shit. I&apos;d like to have fun too, you?
+        , it&apos;s the &quot;Why, Oh, You.&quot; My drive is simple, I want you
+        to be happy, the best user experience, the best developer experience,
+        the most kick-ass work experience.
         <br />
-        <br />I find brilliance and elegance in beautiful, clean, responsive
-        user interfaces. I love a product if the U.X. is pleasing and the U.I.
-        is stunning. A self-healing, fault-tolerant, distributed system keeps me
-        sleeping sound. Hacking on embedded devices with Elixir is a fun
-        weekend! Yes, our house will only get weirder on Halloween.
+        <br />
+        I love all forms of software engineering; however, the UI has my heart.
+        <br />
+        <br />I study too much, I still buy resources on things I know, I may
+        have a nerd shopping habbit.
       </p>
 
-      <h3 className="font-bold text-xl my-8 tracking-tighter">
+      <h3 className="font-bold text-xl my-10 tracking-tighter">
         giving back,
         <span className="text-neutral-400 font-normal"> mentoring</span>
       </h3>
@@ -126,11 +120,11 @@ export default function HomePage() {
         <br />
       </p>
 
-      <h3 className="font-bold text-xl my-8 tracking-tighter">
+      <h3 className="font-bold text-xl my-10 tracking-tighter">
         my loves,
         <span className="text-neutral-400 font-normal">
           {" "}
-          those things after work
+          the reasons we work
         </span>
       </h3>
 

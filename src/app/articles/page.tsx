@@ -15,9 +15,9 @@ export default async function ArticlePage() {
   return (
     <section>
       <h1 className="font-bold text-2xl mb-8 tracking-tighter">
-        read my articles{" "}
+        read my articles,{" "}
         <span className="text-neutral-400 tracking-normal font-normal">
-          and/or rants
+          and ramblings.
         </span>
       </h1>
       {allArticles
