@@ -12,7 +12,7 @@ const navItems = {
   "/articles": {
     name: "articles",
   },
-  "/radar": {
+  "/tech-toys": {
     name: "tech toys",
   },
   "/guestbook": {

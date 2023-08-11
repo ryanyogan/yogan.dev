@@ -29,6 +29,30 @@ export default function HomePage() {
       </h3>
 
       <p className="prose prose-neutral dark:prose-invert">
+        <span className="font-semibold">
+          Put humans first, slow down, and communicate.
+        </span>
+        <br />
+        Please, if you read one book on leadership (I know, crazy, we read
+        hundreds on programming yet...) please read{" "}
+        <a
+          href="https://www.engmanagement.dev/"
+          className="underline decoration-slice transition-all duration-300 ease-in-out"
+        >
+          Sarah Drasner&apos;s - Engineering Management for the rest of us.
+        </a>
+        <br />
+        <br />
+        This book capstones much of what I believe to be true in engineering
+        leadership; however, this book also cracked an&apos; egg of wisdom on me
+        and some.
+        <br />
+        Make your life easier and read her book, I am in no way affliated, I
+        have never even met the author!
+        <br />
+        <br />
+        <span className="font-semibold">People...are not software</span>
+        <br />
         <span className="underline decoration-red-400/40">
           Whoops, I read People-Ware, uh-oh!
         </span>{" "}
