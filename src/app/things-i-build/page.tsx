@@ -7,7 +7,7 @@ export default function TechToys() {
       <h1 className="font-bold text-2xl mb-8 tracking-tighter">
         things i build,{" "}
         <span className="text-neutral-400 tracking-normal font-normal">
-          to learn, for fun, for greater good.
+          to learn, for fun.
         </span>
       </h1>
       <Link
