@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "setup": "node ./src/lib/setup.mjs"
+    "setup": "node ./src/lib/setup.mjs",
+    "postinstall": "npx prisma run generate --data-proxy"
   },
   "dependencies": {
     "@prisma/client": "^5.1.1",
