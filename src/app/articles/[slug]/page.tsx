@@ -38,6 +38,8 @@ function formatDate(date: string) {
   return `${fullDate} (${formattedDate})`;
 }
 
+export const runtime = "edge";
+
 export default async function ArticlePage({ params }: IParams) {
   const article = allArticles.find((article) => article.slug === params.slug);
 

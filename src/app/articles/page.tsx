@@ -9,6 +9,8 @@ export const metadata: Metadata = {
     "Articles on Software Engineering, Engineering Leadership, tutorials, and me soap-boxing.",
 };
 
+export const runtime = "edge";
+
 export default async function ArticlePage() {
   return (
     <section>
