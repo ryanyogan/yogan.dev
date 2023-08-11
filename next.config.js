@@ -15,21 +15,21 @@ const nextConfig = {
       },
     ],
   },
-  redirects() {
-    try {
-      return get("redirects");
-    } catch (error) {
-      return [];
-    }
-  },
-  headers() {
-    return [
-      {
-        source: "/(.*)",
-        headers: securityHeaders,
-      },
-    ];
-  },
+  // redirects() {
+  //   try {
+  //     return get("redirects");
+  //   } catch (error) {
+  //     return [];
+  //   }
+  // },
+  // headers() {
+  //   return [
+  //     {
+  //       source: "/(.*)",
+  //       headers: securityHeaders,
+  //     },
+  //   ];
+  // },
 };
 
 const ContentSecurityPolicy = `

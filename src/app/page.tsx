@@ -31,16 +31,9 @@ export default function HomePage() {
       </h3>
 
       <p className="prose prose-neutral dark:prose-invert">
-        <span className="font-semibold">
-          Put humans first, slow down, and communicate.
-        </span>
-        <br />
         Please, if you read one book on leadership (I know, crazy, we read
         hundreds on programming yet...) please read{" "}
-        <a
-          href="https://www.engmanagement.dev/"
-          className="underline decoration-slice transition-all duration-300 ease-in-out"
-        >
+        <a href="https://www.engmanagement.dev/">
           Sarah Drasner&apos;s - Engineering Management for the rest of us.
         </a>
         <br />
@@ -49,12 +42,10 @@ export default function HomePage() {
         leadership; however, this book also cracked an&apos; egg of wisdom on me
         and some.
         <br />
-        Make your life easier and read her book, I am in no way affliated, I
-        have never even met the author!
-        <br />
-        <br />
-        <span className="font-semibold">People...are not software</span>
-        <br />
+        Make your life easier and read the book, I am in no way affliated.
+      </p>
+      <hr className="my-10" />
+      <p className="prose prose-neutral dark:prose-invert">
         <span className="underline decoration-red-400/40">
           Whoops, I read People-Ware, uh-oh!
         </span>{" "}
@@ -155,16 +146,8 @@ export default function HomePage() {
           rel="noreferrer"
         >
           Lee Robinson
-        </a>
-        &nbsp;and the crew at{" "}
-        <a
-          className="underline decoration-slice transition-all duration-300 ease-in-out"
-          href="https://vercel.com"
-        >
-          Vercel
         </a>{" "}
-        are huge visual design inspirers of mine. This blog even uses the same
-        colors and font as Lee, I love simple!
+        is a huge visual design inspirer of mine. I love simple.
       </p>
     </section>
   );
