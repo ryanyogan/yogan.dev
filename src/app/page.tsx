@@ -29,48 +29,6 @@ export default function HomePage() {
         I may help with their creation. ♥️
       </p>
 
-      <h3 className="font-bold text-xl my-10 tracking-tighter">
-        leadership
-        <span className="text-neutral-400 font-normal">, two books please</span>
-      </h3>
-
-      <p className="prose prose-neutral dark:prose-invert">
-        Please, if you read one book on leadership (I know, crazy, we read
-        hundreds on programming yet...) please read{" "}
-        <a href="https://www.engmanagement.dev/">
-          Sarah Drasner&apos;s - Engineering Management for the rest of us.
-        </a>
-        <br />
-        <br />
-        This book capstones much of what I believe to be true in engineering
-        leadership; however, this book also cracked an&apos; egg of wisdom on me
-        and some.
-        <br />
-        Make your life easier and read the book, I am in no way affliated.
-      </p>
-      <hr className="my-10" />
-      <p className="prose prose-neutral dark:prose-invert">
-        <span className="underline decoration-red-400/40">
-          Whoops, I read People-Ware, uh-oh!
-        </span>{" "}
-        I have been in this industry as an engineering manager for quite some
-        time, yet I had not read PeopleWare! It was not until a fantastic leader
-        recommended this book, I finally read it! 🚀
-        <br />
-        <br />
-        My perspective has not changed; however, my narrative has. I knew in my
-        heart, there were others with more emphasis on the human perspective. I
-        beleive this book capstones many of my thoughts on leadership!{" "}
-        <span className="font-semibold"></span>
-        <a
-          href="https://www.amazon.com/Peopleware-Productive-Projects-Tom-DeMarco/dp/0932633439/ref=sr_1_4?keywords=peopleware&qid=1664326500&qu=eyJxc2MiOiIyLjE2IiwicXNhIjoiMS43NSIsInFzcCI6IjEuNzkifQ%3D%3D&sr=8-4"
-          className="underline decoration-slice transition-all duration-300 ease-in-out"
-        >
-          Read the book to understand me, read the book for the greater good
-        </a>
-        &nbsp;😃
-      </p>
-
       <div className="my-8 flex flex-col space-y-4 w-full">
         <Suspense>
           <BlogLink
@@ -80,7 +38,7 @@ export default function HomePage() {
         </Suspense>
       </div>
 
-      <h3 className="font-bold text-xl my-10 tracking-tighter">
+      <h3 className="font-bold text-2xl mt-12 mb-2 tracking-tighter">
         fun drives me,{" "}
         <span className="text-neutral-400 font-normal">you motivate me</span>
       </h3>
@@ -106,7 +64,51 @@ export default function HomePage() {
         have a nerd shopping habbit.
       </p>
 
-      <h3 className="font-bold text-xl my-10 tracking-tighter">
+      <h3 className="font-bold text-2xl mt-12 mb-2 tracking-tighter">
+        leadership
+        <span className="text-neutral-400 font-normal">, two books please</span>
+      </h3>
+
+      <p className="prose prose-neutral dark:prose-invert">
+        Please, if you read one book on leadership (I know, crazy, we read
+        hundreds on programming yet...) please read{" "}
+        <a href="https://www.engmanagement.dev/">
+          Sarah Drasner&apos;s - Engineering Management for the rest of us.
+        </a>
+        <br />
+        <br />
+        This book capstones much of what I believe to be true in engineering
+        leadership; however, this book also cracked an&apos; egg of wisdom on me
+        and some.
+        <br />
+        Make your life easier and read the book, I am in no way affliated.
+      </p>
+
+      <div className="h-px my-10 bg-neutral-200 dark:bg-neutral-500 w-2/3 mx-auto" />
+
+      <p className="prose prose-neutral dark:prose-invert">
+        <span className="underline decoration-red-400/40">
+          Whoops, I read People-Ware, uh-oh!
+        </span>{" "}
+        I have been in this industry as an engineering manager for quite some
+        time, yet I had not read PeopleWare! It was not until a fantastic leader
+        recommended this book, I finally read it! 🚀
+        <br />
+        <br />
+        My perspective has not changed; however, my narrative has. I knew in my
+        heart, there were others with more emphasis on the human perspective. I
+        beleive this book capstones many of my thoughts on leadership!{" "}
+        <span className="font-semibold"></span>
+        <a
+          href="https://www.amazon.com/Peopleware-Productive-Projects-Tom-DeMarco/dp/0932633439/ref=sr_1_4?keywords=peopleware&qid=1664326500&qu=eyJxc2MiOiIyLjE2IiwicXNhIjoiMS43NSIsInFzcCI6IjEuNzkifQ%3D%3D&sr=8-4"
+          className="underline decoration-slice transition-all duration-300 ease-in-out"
+        >
+          Read the book to understand me, read the book for the greater good
+        </a>
+        &nbsp;😃
+      </p>
+
+      <h3 className="font-bold text-2xl mt-12 mb-2 tracking-tighter">
         giving back,
         <span className="text-neutral-400 font-normal"> mentoring</span>
       </h3>
@@ -124,7 +126,7 @@ export default function HomePage() {
         <br />
       </p>
 
-      <h3 className="font-bold text-xl my-10 tracking-tighter">
+      <h3 className="font-bold text-2xl mt-12 mb-2 tracking-tighter">
         my loves,
         <span className="text-neutral-400 font-normal">
           {" "}
