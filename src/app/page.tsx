@@ -1,4 +1,8 @@
+import { BlogLink } from "@/components/shared/blog-link";
+import { Suspense } from "react";
+
 export const runtime = "edge";
+export const dynamic = "force-dynamic";
 
 export default function HomePage() {
   return (
@@ -66,6 +70,12 @@ export default function HomePage() {
         </a>
         &nbsp;😃
       </p>
+
+      <div className="my-8 flex flex-col space-y-4 w-full">
+        <Suspense>
+          <BlogLink name="This is new." slug="hello-yogi" />
+        </Suspense>
+      </div>
 
       <h3 className="font-bold text-xl my-10 tracking-tighter">
         fun drives me,{" "}
