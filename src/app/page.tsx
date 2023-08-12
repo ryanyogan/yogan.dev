@@ -38,7 +38,7 @@ export default function HomePage() {
         </Suspense>
       </div>
 
-      <h3 className="font-bold text-2xl mt-12 mb-2 tracking-tighter">
+      <h3 className="font-bold text-2xl mt-20 mb-6 tracking-tighter">
         fun drives me,{" "}
         <span className="text-neutral-400 font-normal">you motivate me</span>
       </h3>
@@ -57,14 +57,29 @@ export default function HomePage() {
         to be happy, the best user experience, the best developer experience,
         the most kick-ass work experience.
         <br />
-        <br />
-        I love all forms of software engineering; however, the UI has my heart.
-        <br />
-        <br />I study too much, I still buy resources on things I know, I may
-        have a nerd shopping habbit.
+        <br />I love all forms of software engineering; however, the UI has my
+        heart.
       </p>
 
-      <h3 className="font-bold text-2xl mt-12 mb-2 tracking-tighter">
+      {/* <div className="my-10 flex flex-col sm:flex-row space-x-0 sm:space-x-4 space-y-4 sm:space-y-0 w-full">
+        <SocialLink
+          img={""}
+          name="@ryanyogan"
+          count={1_000}
+          countFor="repositories"
+          link="https://github.com/ryanyogan"
+        />
+
+        <SocialLink
+          img={""}
+          name="@ryanyogan"
+          count={1_000}
+          countFor="repositories"
+          link="https://github.com/ryanyogan"
+        />
+      </div> */}
+
+      <h3 className="font-bold text-2xl mt-20 mb-6 tracking-tighter">
         leadership
         <span className="text-neutral-400 font-normal">, two books please</span>
       </h3>
@@ -108,25 +123,28 @@ export default function HomePage() {
         &nbsp;😃
       </p>
 
-      <h3 className="font-bold text-2xl mt-12 mb-2 tracking-tighter">
+      <h3 className="font-bold text-2xl mt-20 mb-6 tracking-tighter">
         giving back,
         <span className="text-neutral-400 font-normal"> mentoring</span>
       </h3>
 
-      <p className="prose prose-neutral dark:prose-invert">
-        To a community, or building one is excellence! My fondest memories to
-        date:
-        <br />
-        1. Speaking @ USCB to new graduates ~ &quot;We need you, more than you
-        need us!&quot;
-        <br />
-        2. Hack-a-thon by the Sea - Receiving an award, smiles and thanks from
-        children and parents, helping them build video-games whilst teaching
-        them about our industry. Happiest moment in my career!
-        <br />
-      </p>
+      <div className="prose prose-neutral dark:prose-invert">
+        To a community, or building one is excellence! My fondest experiences to
+        date,
+        <ul>
+          <li>
+            Speaking @ USCB to new graduates - &quot;We need you, more than you
+            need us!&quot;
+          </li>
+          <li>
+            Hack-a-thon by the Sea - Receiving an award, smiles and thanks from
+            children and parents, helping them build video-games whilst teaching
+            them about our industry. Happiest moment in my career!
+          </li>
+        </ul>
+      </div>
 
-      <h3 className="font-bold text-2xl mt-12 mb-2 tracking-tighter">
+      <h3 className="font-bold text-2xl mt-20 mb-6 tracking-tighter">
         my loves,
         <span className="text-neutral-400 font-normal">
           {" "}
