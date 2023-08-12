@@ -1,5 +1,7 @@
+import { Mdx } from "@/components/shared/mdx";
 import { ViewCounter } from "@/components/shared/view-counter";
 import { allArticles } from "contentlayer/generated";
+import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Balancer from "react-wrap-balancer";
 
@@ -38,6 +40,44 @@ function formatDate(date: string) {
   return `${fullDate} (${formattedDate})`;
 }
 
+export async function generateMetadata({
+  params,
+}: IParams): Promise<Metadata | undefined> {
+  const article = allArticles.find((article) => article.slug === params.slug);
+  if (!article) {
+    return;
+  }
+
+  const {
+    title,
+    publishedAt: publishedTime,
+    summary: description,
+    image,
+    slug,
+  } = article;
+
+  const ogImage = image
+    ? `https://yogan.dev${image}`
+    : `https://yogan.dev/og?title={title}`;
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      type: "article",
+      publishedTime,
+      url: `https://yogan.dev/articles/${slug}`,
+      images: [
+        {
+          url: ogImage,
+        },
+      ],
+    },
+  };
+}
+
 export const runtime = "edge";
 
 export default async function ArticlePage({ params }: IParams) {
@@ -62,6 +102,8 @@ export default async function ArticlePage({ params }: IParams) {
         </p>
         <ViewCounter allViews={[]} slug={article.slug} trackView />
       </div>
+
+      <Mdx code={article.body.code} />
     </section>
   );
 }

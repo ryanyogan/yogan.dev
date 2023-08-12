@@ -16,6 +16,8 @@ export async function getSession(): Promise<Session> {
   return session;
 }
 
+export async function increment(slug: string) {}
+
 export async function getGuestbookEntries(): Promise<
   Pick<Guestbook, "id" | "body" | "createdBy" | "updatedAt">[]
 > {
