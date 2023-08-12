@@ -19,10 +19,14 @@ export async function getSession(): Promise<Session> {
 export async function increment(slug: string) {
   const article = await db.views.findFirst({
     where: { slug },
+    select: {
+      count: true,
+      slug: true,
+      id: true,
+    },
   });
-  console.log("SLUG", article);
 
-  if (article) {
+  if (article?.slug && article?.id) {
     await db.views.update({
       where: { id: article.id },
       data: {

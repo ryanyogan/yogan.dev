@@ -6,7 +6,7 @@ export const {
   auth,
   CSRF_experimental,
 } = NextAuth({
-  debug: true,
+  debug: process.env.NODE_ENV === "development",
   providers: [
     Github({
       clientId: process.env.OAUTH_CLIENT_KEY as string,

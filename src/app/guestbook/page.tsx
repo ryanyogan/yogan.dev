@@ -24,7 +24,6 @@ export default async function SignPage() {
 
     if (sessionRes.status === "fulfilled") {
       session = sessionRes.value;
-      console.log(sessionRes);
     } else {
       console.error(sessionRes);
     }

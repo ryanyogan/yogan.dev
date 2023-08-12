@@ -79,9 +79,6 @@ export async function generateMetadata({
   };
 }
 
-export const runtime = "edge";
-export const dynamic = "force-dynamic";
-
 export default async function ArticlePage({ params }: IParams) {
   const article = allArticles.find((article) => article.slug === params.slug);
 
