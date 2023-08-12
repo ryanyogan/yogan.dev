@@ -1,3 +1,4 @@
+import { getViewCounts } from "@/actions";
 import { Mdx } from "@/components/shared/mdx";
 import { ViewCounter } from "@/components/shared/view-counter";
 import { allArticles } from "contentlayer/generated";
@@ -79,6 +80,7 @@ export async function generateMetadata({
 }
 
 export const runtime = "edge";
+export const dynamic = "force-dynamic";
 
 export default async function ArticlePage({ params }: IParams) {
   const article = allArticles.find((article) => article.slug === params.slug);
@@ -86,6 +88,8 @@ export default async function ArticlePage({ params }: IParams) {
   if (!article) {
     notFound();
   }
+
+  const allViews = await getViewCounts();
 
   return (
     <section>
@@ -100,7 +104,7 @@ export default async function ArticlePage({ params }: IParams) {
         <p className="text-sm text-neutral-600 dark:text-neutral-400">
           {formatDate(article.publishedAt)}
         </p>
-        <ViewCounter allViews={[]} slug={article.slug} trackView />
+        <ViewCounter allViews={allViews} slug={article.slug} trackView />
       </div>
 
       <Mdx code={article.body.code} />

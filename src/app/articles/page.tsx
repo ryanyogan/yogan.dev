@@ -1,3 +1,4 @@
+import { getViewCounts } from "@/actions";
 import { ViewCounter } from "@/components/shared/view-counter";
 import { allArticles } from "contentlayer/generated";
 import { Metadata } from "next";
@@ -10,8 +11,11 @@ export const metadata: Metadata = {
 };
 
 export const runtime = "edge";
+export const dynamic = "force-dynamic";
 
 export default async function ArticlePage() {
+  const allViews = await getViewCounts();
+
   return (
     <section>
       <h1 className="font-bold text-2xl mb-8 tracking-tighter">
@@ -38,7 +42,7 @@ export default async function ArticlePage() {
                 {article.title}
               </p>
               <ViewCounter
-                allViews={[]}
+                allViews={allViews}
                 slug={article.slug}
                 trackView={false}
               />

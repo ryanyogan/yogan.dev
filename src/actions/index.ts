@@ -16,7 +16,39 @@ export async function getSession(): Promise<Session> {
   return session;
 }
 
-export async function increment(slug: string) {}
+export async function increment(slug: string) {
+  const article = await db.views.findFirst({
+    where: { slug },
+  });
+  console.log("SLUG", article);
+
+  if (article) {
+    await db.views.update({
+      where: { id: article.id },
+      data: {
+        count: {
+          increment: 1,
+        },
+      },
+    });
+  } else {
+    await db.views.create({
+      data: {
+        slug,
+        count: 1,
+      },
+    });
+  }
+}
+
+export async function getViewCounts() {
+  return db.views.findMany({
+    select: {
+      slug: true,
+      count: true,
+    },
+  });
+}
 
 export async function getGuestbookEntries(): Promise<
   Pick<Guestbook, "id" | "body" | "createdBy" | "updatedAt">[]

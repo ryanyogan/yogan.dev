@@ -25,9 +25,11 @@ model Guestbook {
 
 model Views {
   id    String @id @default(cuid())
-  slug  String
-  count Int
+  slug  String @unique
+  count Int    @default(0)
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+
+  @@index([slug])
 }
