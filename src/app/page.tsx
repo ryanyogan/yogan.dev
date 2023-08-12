@@ -73,7 +73,10 @@ export default function HomePage() {
 
       <div className="my-8 flex flex-col space-y-4 w-full">
         <Suspense>
-          <BlogLink name="This is new." slug="hello-yogi" />
+          <BlogLink
+            name="This will be a fun year as all I want to do is educate."
+            slug="hello-yogi"
+          />
         </Suspense>
       </div>
 
