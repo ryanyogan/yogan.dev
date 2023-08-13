@@ -22,6 +22,13 @@ export default function TechToys() {
           href="https://jarvis.yogan.dev"
         />
         <ExternalLink
+          title="Bionic X"
+          description="
+            Using Next.JS & the Vercel AI SDK, create a new X bio in seconds!
+          "
+          href="https://bionic.yogan.dev"
+        />
+        <ExternalLink
           title="Build a Friend"
           description="
           Select a pre-modeled character to chat with, or create your own
