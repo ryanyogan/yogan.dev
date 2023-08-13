@@ -67,8 +67,8 @@ export default function HomePage() {
         to be happy, the best user experience, the best developer experience,
         the most kick-ass work experience.
         <br />
-        <br />I love all forms of software engineering; however, the UI has my
-        heart.
+        <br />I love all forms of software engineering; however, education and
+        mentoring has my heart.
       </p>
 
       <div className="my-8 flex flex-col space-y-4 w-full">
