@@ -111,16 +111,14 @@ export default function HomePage() {
         time, yet I had not read PeopleWare! It was not until a fantastic leader
         recommended this book, I finally read it! 🚀
         <br />
-        <br />
-        My perspective has not changed; however, my narrative has. I knew in my
-        heart, there were others with more emphasis on the human perspective. I
-        beleive this book capstones many of my thoughts on leadership!{" "}
-        <span className="font-semibold"></span>
+        <br />A group of individuals that work together like a fine tuned
+        symphony-orchestra... This book taught me how to execute on the creation
+        of truly vulnerable teams. Simply the best!{" "}
         <a
           href="https://www.amazon.com/Peopleware-Productive-Projects-Tom-DeMarco/dp/0932633439/ref=sr_1_4?keywords=peopleware&qid=1664326500&qu=eyJxc2MiOiIyLjE2IiwicXNhIjoiMS43NSIsInFzcCI6IjEuNzkifQ%3D%3D&sr=8-4"
           className="underline decoration-slice transition-all duration-300 ease-in-out"
         >
-          Read the book to understand me, read the book for the greater good
+          Read the book for the greater good
         </a>
         &nbsp;😃
       </p>
