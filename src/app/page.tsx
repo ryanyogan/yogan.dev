@@ -1,4 +1,5 @@
 import { BlogLink } from "@/components/shared/blog-link";
+import { SocialLink } from "@/components/shared/social-link";
 import { Suspense } from "react";
 
 export const runtime = "edge";
@@ -29,16 +30,25 @@ export default function HomePage() {
         I may help with their creation. ♥️
       </p>
 
-      <div className="my-8 flex flex-col space-y-4 w-full">
-        <Suspense>
-          <BlogLink
-            name="New Year Starting in August"
-            slug="new-year-starting-in-august"
-          />
-        </Suspense>
+      <div className="my-10 flex flex-col sm:flex-row space-x-0 sm:space-x-4 space-y-4 sm:space-y-0 w-full">
+        <SocialLink
+          img="/images/me.jpeg"
+          name="@ryanyogan"
+          count={654}
+          service="github"
+          link="https://github.com/ryanyogan"
+        />
+
+        <SocialLink
+          img="/images/me.jpeg"
+          name="@ryanyogan"
+          count={1_000}
+          service="x"
+          link="https://x.com/ryanyogan"
+        />
       </div>
 
-      <h3 className="font-bold text-2xl mt-20 mb-6 tracking-tighter">
+      <h3 className="font-bold text-2xl my-8 tracking-tighter">
         fun drives me,{" "}
         <span className="text-neutral-400 font-normal">you motivate me</span>
       </h3>
@@ -61,25 +71,17 @@ export default function HomePage() {
         heart.
       </p>
 
-      {/* <div className="my-10 flex flex-col sm:flex-row space-x-0 sm:space-x-4 space-y-4 sm:space-y-0 w-full">
-        <SocialLink
-          img={""}
-          name="@ryanyogan"
-          count={1_000}
-          countFor="repositories"
-          link="https://github.com/ryanyogan"
-        />
+      <div className="my-8 flex flex-col space-y-4 w-full">
+        <Suspense>
+          <BlogLink
+            name="New Year Starting in August"
+            slug="new-year-starting-in-august"
+          />
+          <BlogLink name="Rebuilding React 2025" slug="rebuilding-react-2025" />
+        </Suspense>
+      </div>
 
-        <SocialLink
-          img={""}
-          name="@ryanyogan"
-          count={1_000}
-          countFor="repositories"
-          link="https://github.com/ryanyogan"
-        />
-      </div> */}
-
-      <h3 className="font-bold text-2xl mt-20 mb-6 tracking-tighter">
+      <h3 className="font-bold text-2xl my-8 tracking-tighter">
         leadership
         <span className="text-neutral-400 font-normal">, two books please</span>
       </h3>
@@ -123,7 +125,7 @@ export default function HomePage() {
         &nbsp;😃
       </p>
 
-      <h3 className="font-bold text-2xl mt-20 mb-6 tracking-tighter">
+      <h3 className="font-bold text-2xl my-8 tracking-tighter">
         giving back,
         <span className="text-neutral-400 font-normal"> mentoring</span>
       </h3>
@@ -144,7 +146,7 @@ export default function HomePage() {
         </ul>
       </div>
 
-      <h3 className="font-bold text-2xl mt-20 mb-6 tracking-tighter">
+      <h3 className="font-bold text-2xl my-8 tracking-tighter">
         my loves,
         <span className="text-neutral-400 font-normal">
           {" "}

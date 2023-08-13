@@ -58,6 +58,21 @@ export default function TechToys() {
         </div>
       </Link>
       <Link
+        href="https://yogi.yogan.dev/dashboard"
+        target="_blank"
+        className="flex flex-col space-y-1 mb-4"
+      >
+        <div className="w-full flex flex-col">
+          <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
+            Yogi
+          </p>
+          <p className="text-neutral-600 dark:text-neutral-400">
+            NextJS, Clerk, Prisma, PlanetScale, Tailwind. Multi-Purpose GPT,
+            DALL-E, Music Generation, Video Generation, Code Generation.
+          </p>
+        </div>
+      </Link>
+      <Link
         href="https://one.yogan.dev"
         target="_blank"
         className="flex flex-col space-y-1 mb-4"
