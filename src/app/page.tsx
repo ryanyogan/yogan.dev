@@ -162,7 +162,7 @@ export default function HomePage() {
           </li>
           <li>
             <span className="text-2xl">🚙 </span>
-            Detailing cars is my zend.
+            Detailing cars is my zen.
           </li>
         </ul>
       </div>
