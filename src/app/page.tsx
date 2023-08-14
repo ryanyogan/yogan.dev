@@ -160,7 +160,10 @@ export default function HomePage() {
           <li>
             <span className="text-2xl">🐕 & 🐈‍⬛ </span>pain in the ass.
           </li>
-          <li>Detailing cars (a days worth) is my zen.</li>
+          <li>
+            <span className="text-2xl">🚙 </span>
+            Detailing cars is my zend.
+          </li>
         </ul>
       </div>
 
