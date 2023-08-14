@@ -87,18 +87,12 @@ export default function HomePage() {
       </h3>
 
       <p className="prose prose-neutral dark:prose-invert">
-        Please, if you read one book on leadership (I know, crazy, we read
-        hundreds on programming yet...) please read{" "}
         <a href="https://www.engmanagement.dev/">
-          Sarah Drasner&apos;s - Engineering Management for the rest of us.
+          Sarah Drasner&apos;s - Engineering Management for the rest of us
         </a>
-        <br />
-        <br />
-        This book capstones much of what I believe to be true in engineering
-        leadership; however, this book also cracked an&apos; egg of wisdom on me
-        and some.
-        <br />
-        Make your life easier and read the book, I am in no way affliated.
+        . This book in my opinion (take with salt), should be the standard 101
+        course in engineering leadership; however, this book also cracked me up,
+        and taught me so much
       </p>
 
       <div className="h-px my-10 bg-neutral-200 dark:bg-neutral-500 w-2/3 mx-auto" />
