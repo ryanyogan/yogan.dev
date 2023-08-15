@@ -87,17 +87,6 @@ export default function HomePage() {
       </h3>
 
       <p className="prose prose-neutral dark:prose-invert">
-        <a href="https://www.engmanagement.dev/">
-          Sarah Drasner&apos;s - Engineering Management for the rest of us
-        </a>
-        . This book in my opinion (take with salt), should be the standard 101
-        course in engineering leadership; however, this book also cracked me up,
-        and taught me so much
-      </p>
-
-      <div className="h-px my-10 bg-neutral-200 dark:bg-neutral-500 w-2/3 mx-auto" />
-
-      <p className="prose prose-neutral dark:prose-invert">
         <span className="underline decoration-red-400/40">
           Whoops, I read People-Ware, uh-oh!
         </span>{" "}
@@ -105,7 +94,7 @@ export default function HomePage() {
         time, yet I had not read PeopleWare! It was not until a fantastic leader
         recommended this book, I finally read it! 🚀
         <br />
-        <br />A group of individuals that work together like a fine tuned
+        <br />A group of individuals that work together like
         symphony-orchestra... This book taught me how to execute on the creation
         of truly vulnerable teams. Simply the best!{" "}
         <a
@@ -115,6 +104,16 @@ export default function HomePage() {
           Read the book for the greater good
         </a>
         &nbsp;😃
+      </p>
+
+      <div className="h-px my-10 bg-neutral-200 dark:bg-neutral-500 w-2/3 mx-auto" />
+
+      <p className="prose prose-neutral dark:prose-invert">
+        <a href="https://www.engmanagement.dev/">
+          Sarah Drasner&apos;s - Engineering Management for the rest of us
+        </a>
+        . This book is absolutley fantastic, my new goto when asked `What should
+        I read?` Regardless of your position, from IC to CTO, give it a whirl.
       </p>
 
       <h3 className="font-bold text-2xl my-8 tracking-tighter">
