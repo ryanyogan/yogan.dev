@@ -23,9 +23,9 @@ const computedFields: ComputedFields = {
       dateModified: doc.publishedAt,
       description: doc.summary,
       image: doc.image
-        ? `https://yogan.dev${doc.image}`
-        : `https://yogan.dev/og?title=${doc.title}`,
-      url: `https://yogan.dev/articles/${doc._raw.flattenedPath}`,
+        ? `https://ryanyogan.com${doc.image}`
+        : `https://ryanyogan.com/og?title=${doc.title}`,
+      url: `https://ryanyogan.com/articles/${doc._raw.flattenedPath}`,
       author: {
         "@type": "Person",
         name: "Ryan Yogan",

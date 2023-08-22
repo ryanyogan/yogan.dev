@@ -23,7 +23,7 @@ const graphik = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://yogan.dev"),
+  metadataBase: new URL("https://ryanyogan.com"),
   title: {
     default: "Ryan Yogan",
     template: "%s | Ryan Yogan",

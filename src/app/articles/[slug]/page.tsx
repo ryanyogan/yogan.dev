@@ -58,8 +58,8 @@ export async function generateMetadata({
   } = article;
 
   const ogImage = image
-    ? `https://yogan.dev${image}`
-    : `https://yogan.dev/og?title={title}`;
+    ? `https://ryanyogan.com${image}`
+    : `https://ryanyogan.com/og?title={title}`;
 
   return {
     title,
@@ -69,7 +69,7 @@ export async function generateMetadata({
       description,
       type: "article",
       publishedTime,
-      url: `https://yogan.dev/articles/${slug}`,
+      url: `https://ryanyogan.com/articles/${slug}`,
       images: [
         {
           url: ogImage,

@@ -5,7 +5,7 @@ export default function robots() {
         userAgent: "*",
       },
     ],
-    sitemap: "https://yogan.dev/sitemap.xml",
-    host: "https://yogan.dev",
+    sitemap: "https://ryanyogan.com/sitemap.xml",
+    host: "https://ryanyogan.com",
   };
 }
