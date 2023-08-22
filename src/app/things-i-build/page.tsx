@@ -13,6 +13,15 @@ export default function TechToys() {
 
       <div className="my-8 flex flex-col space-y-4 w-full">
         <ExternalLink
+          title="Mood Journal (My Little Pony Diary)"
+          description="
+            Daily journal that uses several different LLM's for prompt based responses on
+            the journal entry sentiment analysis.  Additionaly uses a KV store and Vector DB for
+            searching all entries and for asking questions such as `How has my week been?`
+          "
+          href="https://journal.yogan.dev"
+        />
+        <ExternalLink
           title="Jarvis"
           description="
             AI Chat Bot powered by NextJS, OpenAI, Redis KV, and Server
