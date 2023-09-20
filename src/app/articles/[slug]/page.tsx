@@ -77,8 +77,6 @@ export async function generateMetadata({
   };
 }
 
-export const runtime = "edge";
-
 export default async function ArticlePage({ params }: IParams) {
   const article = allArticles.find((article) => article.slug === params.slug);
 
