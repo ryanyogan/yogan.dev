@@ -6,9 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "setup": "node ./src/lib/setup.mjs",
-    "postinstall": "npx prisma generate --data-proxy"
+    "lint": "next lint"
   },
   "dependencies": {
     "@types/node": "20.4.9",
