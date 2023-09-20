@@ -71,6 +71,12 @@ export default function MePage() {
         <span className="text-neutral-400 font-normal">redefined me!</span>
       </h1>
 
+      <p className="prose prose-neutral dark:prose-invert text-sm font-semibold text-slate-500">
+        I wrote this part, these books are so important to me!
+      </p>
+
+      <br />
+
       <p className="prose prose-neutral dark:prose-invert">
         Whoops, I read People-Ware, uh-oh! I have been in this industry as an
         engineering manager for quite some time, yet I had not read PeopleWare!
@@ -83,7 +89,15 @@ export default function MePage() {
       <p className="prose prose-neutral dark:prose-invert">
         A group of individuals that work together like symphony-orchestra...
         This book taught me how to execute on the creation of truly vulnerable
-        teams. Simply the best! Read the book for the greater good 😃
+        teams.{" "}
+        <a
+          href="https://www.amazon.com/Peopleware-Productive-Projects-Tom-DeMarco/dp/0932633439"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          Simply the best! Read the book for the greater good
+        </a>{" "}
+        😃
       </p>
 
       <br />
@@ -91,9 +105,16 @@ export default function MePage() {
       <br />
 
       <p className="prose prose-neutral dark:prose-invert">
-        Sarah Drasner&apos;s - Engineering Management for the rest of us. This
-        book is absolutley fantastic, my new goto when asked `What should I
-        read?` Regardless of your position, from IC to CTO, give it a whirl.
+        <a
+          href="https://sarahdrasnerdesign.com/writing"
+          target="_blank"
+          rel="noreferrer noopener"
+          aria-label="Sarah Drasner Book Link"
+        >
+          Sarah Drasner&apos;s - Engineering Management for the rest of us
+        </a>
+        . This book is absolutley fantastic, my new goto when asked `What should
+        I read?` Regardless of your position, from IC to CTO, give it a whirl.
       </p>
 
       <h1 className="font-bold text-2xl my-8 tracking-tighter">
