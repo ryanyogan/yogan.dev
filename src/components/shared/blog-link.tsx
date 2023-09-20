@@ -16,6 +16,9 @@ export async function BlogLink({ slug, name }: BlogLinkProps) {
         <p className="font-bold text-neutral-900 dark:text-neutral-100">
           {name}
         </p>
+        <p className="text-sm text-neutral-600 dark:text-neutral-400">
+          I am switching all DB requests to redis...
+        </p>
         {/* <ViewCounter allViews={100} slug={slug} trackView={false} /> */}
       </div>
       <div className="text-neutral-700 dark:text-neutral-300">

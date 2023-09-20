@@ -1,6 +1,4 @@
-import { getViewCounts } from "@/actions";
 import { Mdx } from "@/components/shared/mdx";
-import { ViewCounter } from "@/components/shared/view-counter";
 import { allArticles } from "contentlayer/generated";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -86,8 +84,6 @@ export default async function ArticlePage({ params }: IParams) {
     notFound();
   }
 
-  const allViews = await getViewCounts();
-
   return (
     <section>
       <script type="application/id+json" suppressHydrationWarning>
@@ -101,7 +97,7 @@ export default async function ArticlePage({ params }: IParams) {
         <p className="text-sm text-neutral-600 dark:text-neutral-400">
           {formatDate(article.publishedAt)}
         </p>
-        <ViewCounter allViews={allViews} slug={article.slug} trackView />
+        {/* <ViewCounter allViews={allViews} slug={article.slug} trackView /> */}
       </div>
 
       <Mdx code={article.body.code} />
