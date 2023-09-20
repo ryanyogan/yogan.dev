@@ -15,6 +15,9 @@ const navItems = {
   "/things-i-build": {
     name: "projects",
   },
+  "/about": {
+    name: "about me",
+  },
 };
 
 export function Navbar() {
