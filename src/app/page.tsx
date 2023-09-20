@@ -2,8 +2,6 @@ import { BlogLink } from "@/components/shared/blog-link";
 import { SocialLink } from "@/components/shared/social-link";
 import { Suspense } from "react";
 
-export const runtime = "edge";
-
 export default function HomePage() {
   return (
     <section>

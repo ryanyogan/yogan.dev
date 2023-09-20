@@ -1,6 +1,5 @@
 import { ExternalLink } from "@/components/shared/external-link";
 
-export const runtime = "edge";
 export default function TechToys() {
   return (
     <section>
