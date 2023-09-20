@@ -3,7 +3,6 @@ import { SocialLink } from "@/components/shared/social-link";
 import { Suspense } from "react";
 
 export const runtime = "edge";
-export const dynamic = "force-dynamic";
 
 export default function HomePage() {
   return (
