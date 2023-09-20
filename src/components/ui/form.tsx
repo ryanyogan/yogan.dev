@@ -1,6 +1,5 @@
 "use client";
 
-import { saveGuestbookEntry } from "@/actions";
 import { useRef } from "react";
 import { experimental_useFormStatus as useFromStatus } from "react-dom";
 
@@ -14,7 +13,7 @@ export function Form() {
       className="relative max-w-[500px]"
       ref={formRef}
       action={async (formData) => {
-        await saveGuestbookEntry(formData);
+        // await saveGuestbookEntry(formData);
         formRef.current?.reset();
       }}
     >
