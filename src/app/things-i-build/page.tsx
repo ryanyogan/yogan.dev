@@ -25,7 +25,7 @@ export default function TechToys() {
         around 3 seconds, so please be patient as I do not want to convert these
         all to the edge. Some services haul ass, they are either static, on the
         edge, or using Fly.io. I will write a post about this topic in time, I
-        promise, I won't 🤣.
+        promise, I won&apos;t 🤣.
       </p>
 
       <div className="my-8 flex flex-col space-y-4 w-full">
