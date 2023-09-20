@@ -15,9 +15,6 @@ const navItems = {
   "/things-i-build": {
     name: "toys in the attic",
   },
-  "/guestbook": {
-    name: "sign",
-  },
 };
 
 export function Navbar() {

@@ -1,7 +1,5 @@
-import { getViewCounts } from "@/actions";
 import Link from "next/link";
 import { ArrowIcon } from "./arrow-icon";
-import { ViewCounter } from "./view-counter";
 
 interface BlogLinkProps {
   slug: string;
@@ -9,8 +7,6 @@ interface BlogLinkProps {
 }
 
 export async function BlogLink({ slug, name }: BlogLinkProps) {
-  const allViews = await getViewCounts();
-
   return (
     <Link
       href={`/articles/${slug}`}
@@ -20,7 +16,7 @@ export async function BlogLink({ slug, name }: BlogLinkProps) {
         <p className="font-bold text-neutral-900 dark:text-neutral-100">
           {name}
         </p>
-        <ViewCounter allViews={allViews} slug={slug} trackView={false} />
+        {/* <ViewCounter allViews={100} slug={slug} trackView={false} /> */}
       </div>
       <div className="text-neutral-700 dark:text-neutral-300">
         <ArrowIcon />
