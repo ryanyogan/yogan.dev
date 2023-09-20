@@ -65,7 +65,10 @@ export default function HomePage() {
         the most kick-ass work experience.
         <br />
         <br />I love all forms of software engineering; however, education and
-        mentoring has my heart.
+        mentoring has my heart. I did not re-create my personal site for the
+        100th time for my own amusement this time (okay I did a little bit), I
+        intend on teaching some seriously fun stuff. I want to teach what I want
+        to learn, maybe you will find it interesting.
       </p>
 
       <div className="my-8 flex flex-col space-y-4 w-full">
@@ -77,41 +80,6 @@ export default function HomePage() {
           <BlogLink name="Rebuilding React 2025" slug="rebuilding-react-2025" />
         </Suspense>
       </div>
-
-      <h3 className="font-bold text-2xl my-8 tracking-tighter">
-        leadership
-        <span className="text-neutral-400 font-normal">, two books please</span>
-      </h3>
-
-      <p className="prose prose-neutral dark:prose-invert">
-        <span className="underline decoration-red-400/40">
-          Whoops, I read People-Ware, uh-oh!
-        </span>{" "}
-        I have been in this industry as an engineering manager for quite some
-        time, yet I had not read PeopleWare! It was not until a fantastic leader
-        recommended this book, I finally read it! 🚀
-        <br />
-        <br />A group of individuals that work together like
-        symphony-orchestra... This book taught me how to execute on the creation
-        of truly vulnerable teams. Simply the best!{" "}
-        <a
-          href="https://www.amazon.com/Peopleware-Productive-Projects-Tom-DeMarco/dp/0932633439/ref=sr_1_4?keywords=peopleware&qid=1664326500&qu=eyJxc2MiOiIyLjE2IiwicXNhIjoiMS43NSIsInFzcCI6IjEuNzkifQ%3D%3D&sr=8-4"
-          className="underline decoration-slice transition-all duration-300 ease-in-out"
-        >
-          Read the book for the greater good
-        </a>
-        &nbsp;😃
-      </p>
-
-      <div className="h-px my-10 bg-neutral-200 dark:bg-neutral-500 w-2/3 mx-auto" />
-
-      <p className="prose prose-neutral dark:prose-invert">
-        <a href="https://www.engmanagement.dev/">
-          Sarah Drasner&apos;s - Engineering Management for the rest of us
-        </a>
-        . This book is absolutley fantastic, my new goto when asked `What should
-        I read?` Regardless of your position, from IC to CTO, give it a whirl.
-      </p>
 
       <h3 className="font-bold text-2xl my-8 tracking-tighter">
         giving back,

@@ -7,6 +7,12 @@ export default function MePage() {
           here&apos;s too much,
         </span>
       </h1>
+      <p className="prose prose-neutral dark:prose-invert text-sm font-semibold text-slate-500">
+        Disclaimer: I asked ChatGPT to write something funny, and the result
+        follows. I find it somewhat hilarious 🤣.
+      </p>
+
+      <br />
 
       <p className="prose prose-neutral dark:prose-invert">
         Hey there, fellow humans! I&apos;m Ryan, the software engineering wizard
@@ -72,6 +78,8 @@ export default function MePage() {
         read it! 🚀
       </p>
 
+      <br />
+
       <p className="prose prose-neutral dark:prose-invert">
         A group of individuals that work together like symphony-orchestra...
         This book taught me how to execute on the creation of truly vulnerable
@@ -92,16 +100,6 @@ export default function MePage() {
         You have yet to mention,{" "}
         <span className="text-neutral-400 font-normal">leadership...</span>
       </h1>
-
-      <small>
-        <i>
-          Disclaimer: I asked ChatGPT 3.5-Turbo to write something funny, and
-          the result follows. I find it somewhat hilarious
-        </i>{" "}
-        🤣
-      </small>
-
-      <br />
 
       <p className="prose prose-neutral dark:prose-invert">
         This topic is huge, and not nearly as fun to write about compared to
