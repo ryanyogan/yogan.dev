@@ -2,7 +2,7 @@ export default function MePage() {
   return (
     <section>
       <h1 className="font-bold text-2xl mb-8 tracking-tighter">
-        About me,{" "}
+        about me,{" "}
         <span className="text-neutral-400 font-normal">
           here&apos;s too much,
         </span>
@@ -48,7 +48,7 @@ export default function MePage() {
       </p>
 
       <h1 className="font-bold text-2xl my-8 tracking-tighter">
-        Where,{" "}
+        where,{" "}
         <span className="text-neutral-400 font-normal">did you start?</span>
       </h1>
 
@@ -67,7 +67,7 @@ export default function MePage() {
       </p>
 
       <h1 className="font-bold text-2xl my-8 tracking-tighter">
-        Two books,{" "}
+        two books,{" "}
         <span className="text-neutral-400 font-normal">redefined me!</span>
       </h1>
 
@@ -118,7 +118,7 @@ export default function MePage() {
       </p>
 
       <h1 className="font-bold text-2xl my-8 tracking-tighter">
-        You have yet to mention,{" "}
+        you have yet to mention,{" "}
         <span className="text-neutral-400 font-normal">leadership...</span>
       </h1>
 
