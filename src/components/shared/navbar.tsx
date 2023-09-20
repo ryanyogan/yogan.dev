@@ -13,7 +13,7 @@ const navItems = {
     name: "articles",
   },
   "/things-i-build": {
-    name: "toys in the attic",
+    name: "projects",
   },
   "/guestbook": {
     name: "sign",
