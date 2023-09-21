@@ -33,8 +33,8 @@ export function SocialLink({
           <div className="border border-neutral-200 dark:border-neutral-700 rounded-full bg-white inline-flex p-1 relative h-6 w-6 items-center -top-6 -right-10">
             {service === "github" && (
               <svg
-                width="1024"
-                height="1024"
+                width="2em"
+                height="2em"
                 viewBox="0 0 1024 1024"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
