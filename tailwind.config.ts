@@ -1,3 +1,4 @@
+import aspectRatio from "@tailwindcss/aspect-ratio";
 import typography from "@tailwindcss/typography";
 import type { Config } from "tailwindcss";
 
@@ -25,6 +26,6 @@ const config: Config = {
   future: {
     hoverOnlyWhenSupported: true,
   },
-  plugins: [typography],
+  plugins: [typography, aspectRatio],
 };
 export default config;

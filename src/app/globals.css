@@ -132,3 +132,5 @@ table {
 [data-rehype-pretty-code-title] + pre {
   @apply mt-0 rounded-t-none border-t-0;
 }
+
+@import "~@uploadthing/react/styles.css"

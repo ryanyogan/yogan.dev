@@ -6,31 +6,38 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate": "drizzle-kit generate:mysql"
   },
   "dependencies": {
+    "@planetscale/database": "^1.11.0",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
     "@types/node": "20.4.9",
     "@types/react": "18.2.20",
     "@types/react-dom": "18.2.7",
+    "@uploadthing/react": "^5.6.1",
     "@vercel/analytics": "^1.0.1",
     "@vercel/edge-config": "^0.2.1",
-    "@vercel/kv": "^0.2.2",
+    "@vercel/kv": "^0.2.3",
     "@vercel/og": "^0.5.10",
     "autoprefixer": "10.4.14",
     "clsx": "^2.0.0",
     "contentlayer": "^0.3.4",
     "date-fns": "^2.30.0",
     "dotenv": "^16.3.1",
+    "drizzle-orm": "^0.28.6",
     "eslint": "8.46.0",
     "eslint-config-next": "latest",
     "framer-motion": "^10.15.1",
     "googleapis": "^123.0.0",
+    "mysql2": "^3.6.1",
     "next": "latest",
     "next-auth": "0.0.0-manual.83c4ebd1",
     "next-contentlayer": "^0.3.4",
     "postcss": "8.4.27",
     "react": "latest",
     "react-dom": "latest",
+    "react-dropzone": "^14.2.3",
     "react-wrap-balancer": "^1.0.0",
     "rehype-autolink-headings": "^6.1.1",
     "rehype-pretty-code": "^0.10.0",
@@ -40,9 +47,11 @@
     "shiki": "^0.14.3",
     "swr": "^2.2.0",
     "tailwindcss": "3.3.3",
-    "typescript": "5.1.6"
+    "typescript": "5.1.6",
+    "uploadthing": "^5.6.1"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.9"
+    "@tailwindcss/typography": "^0.5.9",
+    "drizzle-kit": "^0.19.13"
   }
 }
