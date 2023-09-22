@@ -123,21 +123,21 @@ export default function MePage() {
       </h1>
 
       <p className="prose prose-neutral dark:prose-invert">
-        Over the past year, I've been knee-deep in TypeScript, Next.JS 13,
+        Over the past year, I&apos;ve been knee-deep in TypeScript, Next.JS 13,
         Remix, Three.js, and even tinkering with SvelteKit and Astro.build (this
-        very site is an Astro site, by the way). I've been exploring the
-        fascinating world of OpenAI and indulging in some "edgy" computing –
-        which is just a fancy way of saying I've been re-learning caching
+        very site is an Astro site, by the way). I&apos;ve been exploring the
+        fascinating world of OpenAI and indulging in some `edgy` computing –
+        which is just a fancy way of saying I&apos;ve been re-learning caching
         techniques. My love for UI development comes in waves, and after a few
-        years, I often roll back to the backend. Right now, I'm rediscovering
-        the joys of CSS and finding that less-is-more when it comes to styling.
-        Who would have thought?
+        years, I often roll back to the backend. Right now, I&apos;m
+        rediscovering the joys of CSS and finding that less-is-more when it
+        comes to styling. Who would have thought?
       </p>
 
       <br />
 
       <p className="prose prose-neutral dark:prose-invert">
-        As a true adventurer, you'll find me dabbling in SwiftUI, Kotlin,
+        As a true adventurer, you&apos;ll find me dabbling in SwiftUI, Kotlin,
         Flutter, and React Native. Do I have a favorite? Absolutely not. Each of
         them brings a unique set of solutions to the challenges they were
         designed for, in my humble opinion.
@@ -149,12 +149,12 @@ export default function MePage() {
         When it comes to backend languages, GoLang and Elixir hold a special
         place in my heart. Although, lately, the Bun-based projects have been
         adding some spice to my TypeScript-infused world! I have a penchant for
-        working with large datasets. There's something exhilarating about
+        working with large datasets. There&apos;s something exhilarating about
         rewriting Airflow services into stream-based services using Erlang,
-        Scala, or Go. I can't pinpoint exactly when or where this fascination
-        began, but I suspect it was during my time at H.G. Insights (extremely
-        large data pipelines) while devouring the book on Concurrent Data
-        Processing in Elixir. It all just made too much sense!
+        Scala, or Go. I can&apos;t pinpoint exactly when or where this
+        fascination began, but I suspect it was during my time at H.G. Insights
+        (extremely large data pipelines) while devouring the book on Concurrent
+        Data Processing in Elixir. It all just made too much sense!
       </p>
 
       <h1 className="font-bold text-2xl my-8 tracking-tighter">
@@ -190,11 +190,11 @@ export default function MePage() {
       <br />
 
       <p className="prose prose-neutral dark:prose-invert">
-        Currently, I'm working on building a learning platform. Yes, I know what
-        you're thinking – there are already 200 similar platforms out there. But
-        here's the twist: mine is absolutely free. I firmly believe that
-        knowledge should not come at a cost. And hey, I'm still learning too, so
-        it's a win-win-win situation!
+        Currently, I&apos;m working on building a learning platform. Yes, I know
+        what you&apos;re thinking – there are already 200 similar platforms out
+        there. But here&apos;s the twist: mine is absolutely free. I firmly
+        believe that knowledge should not come at a cost. And hey, I&apos;m
+        still learning too, so it&apos;s a win-win-win situation!
       </p>
 
       <h1 className="font-bold text-2xl my-8 tracking-tighter">
