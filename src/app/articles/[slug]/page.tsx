@@ -93,7 +93,7 @@ export default async function ArticlePage({ params }: IParams) {
   return (
     <section>
       <script
-        type="application/id+json"
+        type="application/ld+json"
         suppressHydrationWarning
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(article.structuredData),
