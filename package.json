@@ -10,6 +10,7 @@
     "generate": "drizzle-kit generate:mysql"
   },
   "dependencies": {
+    "@clerk/nextjs": "^4.24.1",
     "@planetscale/database": "^1.11.0",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@types/node": "20.4.9",

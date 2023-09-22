@@ -2,6 +2,7 @@
 
 import clsx from "clsx";
 import { signIn, signOut } from "next-auth/react";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 function GitHubIcon() {
@@ -27,6 +28,7 @@ function GitHubIcon() {
     </svg>
   );
 }
+
 function IconSpinner({ className, ...props }: React.ComponentProps<"svg">) {
   return (
     <svg
@@ -54,6 +56,7 @@ export function SignOut() {
 
 export function SignIn() {
   const [isLoading, setIsLoading] = useState(false);
+  const router = useRouter();
 
   return (
     <button
