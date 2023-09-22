@@ -28,7 +28,15 @@ export const metadata: Metadata = {
     default: "Ryan Yogan",
     template: "%s | Ryan Yogan",
   },
-  description: "Engineering Leader, Developer, Writer, and Educator.",
+  description: "Engineering Leader, Developer, Writer, and Aviation Nerd",
+  openGraph: {
+    title: "Ryan Yogan",
+    description: "Engineering Leader, Developer, Writer, and Aviation Nerd",
+    url: "https://ryanyogan.com",
+    siteName: "Ryan Yogan",
+    locale: "en_US",
+    type: "website",
+  },
   robots: {
     index: true,
     follow: true,

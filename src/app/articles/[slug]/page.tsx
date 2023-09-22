@@ -86,9 +86,13 @@ export default async function ArticlePage({ params }: IParams) {
 
   return (
     <section>
-      <script type="application/id+json" suppressHydrationWarning>
-        {JSON.stringify(article.structuredData)}
-      </script>
+      <script
+        type="application/id+json"
+        suppressHydrationWarning
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(article.structuredData),
+        }}
+      ></script>
       <h1 className="font-bold text-2xl tracking-tighter max-w-[650px]">
         <Balancer>{article.title}</Balancer>
       </h1>

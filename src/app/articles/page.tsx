@@ -5,11 +5,8 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Articles",
   description:
-    "Articles on Software Engineering, Engineering Leadership, tutorials, and me soap-boxing.",
+    "Articles on Software Engineering, Engineering Leadership, tutorials, aviation, and me soap-boxing.",
 };
-
-// export const runtime = "edge";
-// export const dynamic = "force-dynamic";
 
 export default async function ArticlePage() {
   return (
