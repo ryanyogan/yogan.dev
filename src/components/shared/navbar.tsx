@@ -63,6 +63,11 @@ export function Navbar() {
               );
             })}
           </div>
+          <div className="ml-auto mt-0.5">
+            <Link href="/our-zoo">
+              <span className="text-xs">🐈‍⬛</span>
+            </Link>
+          </div>
         </nav>
       </LayoutGroup>
     </aside>
