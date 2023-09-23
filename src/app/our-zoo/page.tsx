@@ -2,7 +2,7 @@ import { getRecentImages } from "@/actions";
 import BlurImage from "./_components/blur-image";
 import ZooClient from "./_components/zoo-client";
 
-// export const runtime = "edge";
+export const runtime = "edge";
 
 export default async function OurZoo() {
   const images = await getRecentImages();

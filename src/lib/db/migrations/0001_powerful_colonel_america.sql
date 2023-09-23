@@ -1,0 +1,1 @@
+ALTER TABLE `image` ADD `validated` boolean DEFAULT false;
