@@ -1,5 +1,6 @@
 import { BlogLink } from "@/components/shared/blog-link";
 import { SocialLink } from "@/components/shared/social-link";
+import Link from "next/link";
 import { Suspense } from "react";
 
 export default function HomePage() {
@@ -122,7 +123,9 @@ export default function HomePage() {
             <span className="text-2xl">👨‍👩‍👦‍👦 </span>is my love.
           </li>
           <li>
-            <span className="text-2xl">🐕 & 🐈‍⬛ </span>pain in the ass.
+            <Link href="/our-zoo">
+              <span className="text-2xl">🐕 & 🐈‍⬛ </span>pain in the ass.
+            </Link>
           </li>
           <li>
             <span className="text-2xl">🚙 </span>
