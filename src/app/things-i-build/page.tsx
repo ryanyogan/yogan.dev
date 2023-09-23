@@ -27,7 +27,7 @@ export default function TechToys() {
         promise, I won&apos;t 🤣.
       </p>
 
-      <div className="my-8 flex flex-col space-y-4 w-full">
+      <div className="my-8 flex flex-col space-y-8 w-full">
         <ExternalLink
           title="Jarvis"
           description="
