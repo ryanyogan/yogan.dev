@@ -33,7 +33,7 @@
     "googleapis": "^123.0.0",
     "mysql2": "^3.6.1",
     "next": "latest",
-    "next-auth": "0.0.0-manual.83c4ebd1",
+    "next-auth": "latest",
     "next-contentlayer": "^0.3.4",
     "postcss": "8.4.27",
     "react": "latest",

@@ -1,11 +1,13 @@
 import { getRecentImages } from "@/actions";
+import { SignIn, SignOut } from "@/components/ui/button";
+import { getServerSession } from "next-auth";
 import BlurImage from "./_components/blur-image";
 import UploadContent from "./_components/upload-content";
 
-export const runtime = "edge";
-
 export default async function OurZoo() {
   const images = await getRecentImages();
+  const session = await getServerSession();
+
   return (
     <section>
       <h1 className="font-bold text-2xl mb-8 tracking-tighter">
@@ -31,8 +33,15 @@ export default async function OurZoo() {
           : null}
       </div>
 
-      <div className="mt-20 w-full flex justify-center items-center">
-        <UploadContent />
+      <div className="mt-20 w-full flex flex-col justify-center items-center">
+        {session?.user ? (
+          <div className="flex flex-col gap-y-2">
+            <UploadContent />
+            <SignOut />
+          </div>
+        ) : (
+          <SignIn />
+        )}
       </div>
     </section>
   );
