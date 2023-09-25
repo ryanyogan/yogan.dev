@@ -58,12 +58,12 @@ export default function MePage() {
         nerdier than a collection of pocket protectors at a Star Trek
         convention. My love for this crazy world of coding started when I got my
         hands on a 386 running Windows 3.1 for Workgroups. Ah, the memories!
-        Thanks to AOL and my wild desire to kick off unsuspecting internet users
-        after 20 minutes of dial-up attempts, I embarked on a journey of digital
-        mischief creating `punters`, kicking my friends off the internet 🤣. Who
-        knew that my mischievousness AOL days, trying to re-create Winamp in
-        VisualBasic, and reading the back of C++ books would evolve into a
-        full-blown career?
+        Thanks to AOL and my wild desire to create `pretty` user interfaces in
+        Visual Basic 🤣. I scoured different chatrooms looking for `modules`
+        that spied on the WinSock32 api, creating small applications that
+        tinkered with AOL. Who knew that my silly AOL days, trying to re-create
+        Winamp in VisualBasic, and reading the back of C++ books would evolve
+        into a full-blown career?
       </p>
 
       <h1 className="font-bold text-2xl my-8 tracking-tighter">
