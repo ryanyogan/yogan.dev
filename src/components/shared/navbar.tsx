@@ -15,9 +15,6 @@ const navItems = {
   "/things-i-build": {
     name: "projects",
   },
-  "/about": {
-    name: "about me",
-  },
 };
 
 export function Navbar() {
@@ -42,7 +39,7 @@ export function Navbar() {
                     "transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle",
                     {
                       "text-neutral-500": !isActive,
-                    }
+                    },
                   )}
                 >
                   <span className="relative py-1 px-2">

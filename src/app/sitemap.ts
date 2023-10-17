@@ -6,11 +6,11 @@ export default async function sitemap() {
     lastModified: article.publishedAt,
   }));
 
-  const routes = ["", "/articles", "/things-i-build", "/about", "/our-zoo"].map(
+  const routes = ["", "/articles", "/things-i-build", "/our-zoo"].map(
     (route) => ({
       url: `https://ryanyogan.com${route}`,
       lastModified: new Date().toISOString().split("T")[0],
-    })
+    }),
   );
 
   return [...routes, ...articles];

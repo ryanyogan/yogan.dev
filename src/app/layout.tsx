@@ -64,7 +64,7 @@ export default function RootLayout({
       lang="en"
       className={clsx(
         "text-black bg-white dark:text-white dark:bg-[#111010]",
-        graphik.variable
+        graphik.variable,
       )}
     >
       <body className="antialiased max-w-2xl mb-40 flex flex-col md:flex-row mx-4 mt-8 lg:mx-auto">
