@@ -36,7 +36,7 @@ export default function TechToys() {
             this daily as I personally, and I cannot stress this enough,
             personally, cannot stand the OpenAI UI.
           "
-          href="https://jarvis.yogan.dev"
+          href="https://jarvis.ryanyogan.com"
         />
 
         <ExternalLink
